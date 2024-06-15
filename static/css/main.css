@@ -1,0 +1,38 @@
+/* Global Variables */
+:root {
+  --background: #30393e;
+  --text: #c6c4ba;
+  --secondary: #000;
+  --tertiary: #9d9b9c;
+}
+
+/* html and body styles */
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background-color: var(--background);
+  color: var(--text);
+}
+
+body {
+  width: 99%;
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 100%;
+  font-weight: inherit;
+  line-height: 1.2em;
+}
+
+/* Headings */
+h1,
+h2 {
+  font-size: 2.3em;
+  line-height: 1.1em;
+  font-family: Alkatra, Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.8em;
+}
