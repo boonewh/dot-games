@@ -1,0 +1,53 @@
+:root {
+  --accentColor: rgb(63, 17, 11);
+  --background: rgb(239, 202, 163);
+  --lightText: antiquewhite;
+  --heroBackground: white;
+}
+
+/* Global Styles */
+article,
+blockquote,
+body,
+cite,
+div,
+footer,
+h1,
+h2,
+h3,
+h5,
+header,
+img,
+li,
+main,
+nav,
+p,
+section,
+ul {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+/* Page and Body styles */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  color: black;
+  font-family: Verdana, Geneva, sans-serif;
+  font-weight: inherit;
+  line-height: 1.2em;
+  background-color: var(--background);
+  margin: 0px auto;
+
+  background-image: url(../jaderegentImages/pagoda2.png);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-size: 40%;
+}

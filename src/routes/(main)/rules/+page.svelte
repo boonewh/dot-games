@@ -1,1 +1,333 @@
-Rules Page
+<svelte:head>
+  <link rel="stylesheet" href="/css/main.css" />
+</svelte:head>
+
+<main class="rules">
+  <h1>House Rules & Clarifications</h1>
+  <ol>
+    <li class="primary">No third party products</li>
+    <li class="primary">
+      Character creation
+      <ol>
+        <li class="second">
+          Ability stat generation style to be determined by Game Master prior to
+          character generation.
+          <ol>
+            <li class="tert">
+              Typical styles include:
+              <ol>
+                <li class="quar">
+                  Point build (example: 20 point, place as desired, then apply
+                  racial bonus).
+                </li>
+                <li class="quar">
+                  Dice roll (4d6 drop lowest, place as desired then apply racial
+                  bonus).
+                </li>
+                <li class="quar">
+                  Array (17, 15, 13, 13, 11, 11 place as desired then apply
+                  racial bonus).
+                </li>
+              </ol>
+            </li>
+            <li class="tert">
+              For Normal Games
+              <ol>
+                <li class="quar">
+                  Initial Stats (Before racial traits) must be between 10 and
+                  17.
+                </li>
+              </ol>
+            </li>
+          </ol>
+        </li>
+        <li class="second">
+          Allowed races.
+          <ol>
+            <li class="tert">
+              For Normal Game
+              <ol>
+                <li class="quar">Core races can be freely chosen.</li>
+                <li class="quar">
+                  Featured races are allowed with discretion, DM&#39s approval
+                </li>
+                <li class="quar">
+                  Uncommon Custom races, rarely with DM&#39s approval
+                </li>
+                <li class="quar">Randomizer with DM&#39s approval.</li>
+                <li class="quar">No custom Races</li>
+              </ol>
+            </li>
+            <li class="tert">
+              For Short Games
+              <ol>
+                <li class="quar">Core Races freely chosen</li>
+                <li class="quar">Featured Races freely chosen</li>
+                <li class="quar">Uncommon races with DM&#39s approval</li>
+                <li class="quar">Freely use randomizer</li>
+                <li class="quar">No custom Races.</li>
+              </ol>
+            </li>
+          </ol>
+        </li>
+        <li class="second">
+          Banned classes.
+          <ol>
+            <li class="tert">
+              For Normal Games.
+              <ol>
+                <li class="quar">
+                  Fighter due to abusive builds, DM discretion per campaign
+                </li>
+                <li class="quar">Summoner</li>
+                <li class="quar">Archer</li>
+                <li class="quar">Undead Lord</li>
+                <li class="quar">Arcane Trickster</li>
+                <li class="quar">Arcane Archer</li>
+                <li class="quar">Anything from Occult Game</li>
+              </ol>
+            </li>
+            <li class="tert">
+              For Short Games
+              <ol>
+                <li class="quar">No banned list.</li>
+              </ol>
+            </li>
+          </ol>
+        </li>
+        <li class="second">
+          Alignment.
+          <ol>
+            <li class="tert">Any non-evil alignment is allowed.</li>
+          </ol>
+        </li>
+        <li class="second">
+          Equipment.
+          <ol>
+            <li class="tert">
+              All characters can start with “mundane” equipment of their
+              choosing.
+            </li>
+            <li class="tert">No special materials or properties.</li>
+            <li class="tert">
+              Characters still get starting gold on top of “mundane” equipment.
+            </li>
+            <li class="tert">
+              Do not worry about encumbrance. It is assumed you can drop your
+              gear at the beginning of battle.
+            </li>
+            <li class="tert">
+              Unlimited “normal” ammunition except in special circumstances.
+            </li>
+            <li class="tert">
+              No guns/technology except in the “appropriate” campaigns
+            </li>
+          </ol>
+        </li>
+      </ol>
+    </li>
+    <li class="primary">
+      Character Advancement
+      <ol>
+        <li class="second">
+          Experience Points
+          <ol>
+            <li class="tert">Use “Fast Experience track”</li>
+            <li class="tert">
+              All party members equally split XP, and will be the same level.
+            </li>
+          </ol>
+        </li>
+        <li class="second">
+          Hit Points
+          <ol>
+            <li class="tert">
+              IF rolling for Hit points, reroll until you get a number on the
+              upper half of the die.
+              <ol>
+                <li class="quar">
+                  Example, if you roll a d8 for HP, you can re-roll any result
+                  of 1-4.
+                </li>
+              </ol>
+            </li>
+            <li class="tert">
+              Standard rule: Take maximum hit points per level.
+            </li>
+          </ol>
+        </li>
+      </ol>
+    </li>
+    <li class="primary">
+      Spells and Magic
+      <ol>
+        <li class="second">Use Spell memorization per rulebooks.</li>
+        <li class="second">No spell components are required.</li>
+        <li class="second">Spell Concentration is not used.</li>
+        <li class="second">
+          Use the spell templates we have created instead of the “grid” spell
+          areas.
+        </li>
+      </ol>
+    </li>
+    <li class="primary">
+      Combat
+      <ol>
+        <li class="second">Bleed is not used.</li>
+        <li class="second">
+          Critical hits
+          <ol>
+            <li class="tert">
+              A roll of a 20 is always a critical, unless a 20 is the only way
+              you could hit the opponent. In this case, the Natural 20 is still
+              a hit, but must be confirmed to be a critical.
+            </li>
+          </ol>
+        </li>
+        <li class="second">
+          Surprise Round
+          <ol>
+            <li>
+              If surprised (unaware) you are considered flat footed until your
+              turn and do not get to act in the surprise round.
+            </li>
+            <li>If not surprised, you may take a Move or a Standard action.</li>
+            <li>
+              Even if you have already gone, you are still considered flat
+              footed vs. undetected (Stealth or Invisible) opponents.
+            </li>
+          </ol>
+        </li>
+        <li class="second">
+          Precision Damage
+          <ol>
+            <li>
+              If any of your attacks qualify for precision damage (backstab)
+              during a round then all of your attacks versus the same opponent
+              qualify for precision damage.
+            </li>
+            <li>
+              You cannot use precision damage against an opponent who has
+              concealment.
+            </li>
+          </ol>
+        </li>
+        <li class="second">
+          Sniping (Attack at range, while stealthy)
+          <ol>
+            <li>
+              Can grant precision damage if applicable, typically to a target
+              which has not seen <br /> you.
+            </li>
+            <li>
+              After your attack, if you have not moved, you may make a stealth
+              check. If <br /> successful, then you have not been spotted and
+              may attack again from stealth <br /> the next round.
+            </li>
+          </ol>
+        </li>
+      </ol>
+    </li>
+    <li class="primary">
+      Movement
+      <ol>
+        <li class="second">
+          Diagonal movement is still 5&#39 per square, no normal square counts
+          double.
+        </li>
+      </ol>
+    </li>
+    <li class="primary">
+      Skill and Ability checks
+      <ol>
+        <li class="second">
+          A roll of a 20 is always a success, a roll of a 1 is always a failure.
+        </li>
+      </ol>
+    </li>
+    <li class="primary">
+      Poison
+      <ol>
+        <li class="second">Characters use the Unchained Poison rules.</li>
+        <li class="second">Encounters use the rules as written.</li>
+      </ol>
+    </li>
+    <li class="primary">
+      Saving throws
+      <ol>
+        <li class="second">A natural 20 is always a success.</li>
+        <li class="second">A natural 1 is always a failure.</li>
+        <li class="second">
+          Items do not need to make a check on a natural roll of a 1.
+        </li>
+      </ol>
+    </li>
+    <li class="primary">
+      Magic items and Items carried
+      <ol>
+        <li class="second">
+          Cannot be damaged or broken unless specifically targeted.
+          <ol>
+            <li class="tert">Unless their description says otherwise.</li>
+          </ol>
+        </li>
+        <li class="second">
+          Testing for this campaign: Auto Bonus Progression rules
+        </li>
+      </ol>
+    </li>
+    <li class="primary">
+      Eidolon
+      <ol>
+        <li class="second">
+          Equipment which has been attuned to the Eidolon (worn/wielded for 12 <br
+          /> hours) travels with the Eidolon when it is summoned/banished.
+        </li>
+      </ol>
+    </li>
+    <li class="primary">
+      Feats
+      <ol>
+        <li class="second">Use the Elephant in the Room “Weapon groups”</li>
+        <li class="second">
+          Banned Feats
+          <ol>
+            <li class="tert">Leadership</li>
+          </ol>
+        </li>
+      </ol>
+    </li>
+  </ol>
+</main>
+
+<style>
+  .rules {
+    width: 75%;
+    padding: 10px;
+    border-bottom: 1px solid black;
+    margin: auto;
+  }
+
+  .rules li.primary {
+    text-transform: uppercase;
+    list-style-type: upper-roman;
+  }
+
+  .rules li.second,
+  li.tert,
+  li.quar {
+    text-transform: none;
+  }
+
+  .rules li.second {
+    list-style-type: upper-alpha;
+  }
+
+  .rules li.tert {
+    list-style-type: decimal;
+  }
+
+  .rules li.quar {
+    list-style-type: lower-alpha;
+  }
+</style>

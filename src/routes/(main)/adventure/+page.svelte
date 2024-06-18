@@ -7,6 +7,10 @@
   }
 </script>
 
+<svelte:head>
+  <link rel="stylesheet" href="/css/main.css" />
+</svelte:head>
+
 <main class="blog">
   <h1>Tales From the High Sea!</h1>
   <h1>Book 2: Raiders of the Fever Sea</h1>

@@ -109,6 +109,10 @@
   });
 </script>
 
+<svelte:head>
+  <link rel="stylesheet" href="/css/jr_styles.css" />
+</svelte:head>
+
 <body>
   <header class="header1">
     <div class="head">
@@ -123,11 +127,11 @@
         ><img src="jaderegentImages/navicon.png" alt="" /></a
       >
       <ul>
-        <li><a href="https://pathsix.games">Home Page</a></li>
-        <li><a href="index.html">Jade Regent Home</a></li>
-        <li><a href="adventureLog.html">Adventure Log</a></li>
-        <li><a href="characters.html">Characters</a></li>
-        <li><a href="about.html">About Us</a></li>
+        <li><a href="/">Home Page</a></li>
+        <li><a href="/JadeRegent">Jade Regent Home</a></li>
+        <li><a href="/adventureLog">Adventure Log</a></li>
+        <li><a href="/characters">Characters</a></li>
+        <li><a href="/about">About Us</a></li>
       </ul>
     </nav>
 
@@ -302,7 +306,6 @@
   </main>
 
   <footer>
-    <a href="index.html">Back to Top</a>
     <p>All Rights Reserved</p>
   </footer>
 </body>
@@ -314,60 +317,6 @@
 */
 
   /* Global Variables */
-
-  :root {
-    --accentColor: rgb(63, 17, 11);
-    --background: rgb(239, 202, 163);
-    --lightText: antiquewhite;
-    --heroBackground: white;
-  }
-
-  /* Global Styles */
-  article,
-  blockquote,
-  body,
-  cite,
-  div,
-  footer,
-  h1,
-  h2,
-  h3,
-  h5,
-  header,
-  img,
-  li,
-  main,
-  nav,
-  p,
-  section,
-  ul {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    vertical-align: baseline;
-    background: transparent;
-  }
-
-  /* Page and Body styles */
-
-  * {
-    box-sizing: border-box;
-  }
-
-  body {
-    color: black;
-    font-family: Verdana, Geneva, sans-serif;
-    font-weight: inherit;
-    line-height: 1.2em;
-    background-color: var(--background);
-    margin: 0px auto;
-
-    background-image: url(../jaderegentImages/pagoda2.png);
-    background-repeat: no-repeat;
-    background-position: bottom right;
-    background-size: 40%;
-  }
 
   main {
     max-width: 70%;
@@ -472,8 +421,7 @@
   }
 
   .navFirst li a:visited,
-  .navFirst li a:active,
-  .navFirst li a:hover {
+  .navFirst li a:active {
     color: var(--accentColor);
     line-height: 2.3em;
   }
@@ -481,13 +429,6 @@
   .navFirst a {
     background-color: var(--heroBackground);
   }
-
-  .navFirst:active,
-  header .navFirst a:hover {
-    background-color: var(--accentColor);
-    color: var(--lightText);
-  }
-
   .navSecond ul li a {
     color: var(--lightText);
     background-color: var(--accentColor);
@@ -499,8 +440,7 @@
   }
 
   .navSecond li a:visited,
-  .navSecond li a:active,
-  .navSecond li a:hover {
+  .navSecond li a:active {
     color: var(--background);
     line-height: 2.3em;
   }
@@ -656,26 +596,11 @@
     justify-content: space-between;
   }
 
-  footer a {
-    color: var(--lightText);
-    font-family: Georgia, "Times New Roman", Times, serif;
-    font-size: 1.1em;
-  }
-
   /* =============================
 	Mobile Styles: 0 - 900 pixels
    =============================
 */
   @media only screen and (max-width: 900px) {
-    main {
-      max-width: 100%;
-    }
-
-    body {
-      background-size: 0%;
-      border: 4px solid main;
-    }
-
     .head img {
       width: 100%;
       margin: 0;

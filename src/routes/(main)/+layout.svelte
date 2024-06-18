@@ -145,7 +145,6 @@
 
     .navFirst li a:active,
     .navFirst li a:hover {
-      background-color: var(--tertiary);
       color: black;
     }
 
